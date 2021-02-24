@@ -11,6 +11,9 @@
 		98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBED25E4642B00DC7B1F /* ContentView.swift */; };
 		98EEDBF025E4642B00DC7B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EEDBEF25E4642B00DC7B1F /* Assets.xcassets */; };
 		98EEDBF325E4642B00DC7B1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EEDBF225E4642B00DC7B1F /* Preview Assets.xcassets */; };
+		98EEDBFC25E6090900DC7B1F /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBFB25E6090900DC7B1F /* MainListView.swift */; };
+		98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */; };
+		98EEDC0225E60DA600DC7B1F /* ImageZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0125E60DA600DC7B1F /* ImageZoo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		98EEDBEF25E4642B00DC7B1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98EEDBF225E4642B00DC7B1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98EEDBF425E4642B00DC7B1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98EEDBFB25E6090900DC7B1F /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListCell.swift; sourceTree = "<group>"; };
+		98EEDC0125E60DA600DC7B1F /* ImageZoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */,
 				98EEDBED25E4642B00DC7B1F /* ContentView.swift */,
+				98EEDBFB25E6090900DC7B1F /* MainListView.swift */,
+				98EEDC0125E60DA600DC7B1F /* ImageZoo.swift */,
+				98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */,
 				98EEDBEF25E4642B00DC7B1F /* Assets.xcassets */,
 				98EEDBF425E4642B00DC7B1F /* Info.plist */,
 				98EEDBF125E4642B00DC7B1F /* Preview Content */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */,
+				98EEDBFC25E6090900DC7B1F /* MainListView.swift in Sources */,
+				98EEDC0225E60DA600DC7B1F /* ImageZoo.swift in Sources */,
+				98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */,
 				98EEDBEC25E4642B00DC7B1F /* SwiftUIZooApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
