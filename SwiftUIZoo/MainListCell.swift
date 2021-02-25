@@ -21,9 +21,10 @@ struct MainListCell: View {
             Text(subtitle)
                 .font(.subheadline)
                 .fontWeight(.light)
-            }
+            }.padding()
             Spacer()
-        }.padding()
+        }
+        .randomColorBackground()
     }
 }
 

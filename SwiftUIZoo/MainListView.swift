@@ -7,18 +7,16 @@
 
 import SwiftUI
 
-// TODO write a random color modifier
-//.background(Color(colors.randomElement()!))
-// private let colors: [UIColor] = [.systemRed, .systemOrange, .systemBlue, .systemYellow, .systemPink, .systemGreen]
-
 struct MainListView: View {
     var body: some View {
         NavigationView {
             List { // TODO - structure to handle the listing of all these things
                 Section(header: Text("Images")) {
-                    MainListCell(title: "Image Tile", subtitle:"stretch and tiled images")
                     NavigationLink(destination: ImageTile()) {
+                        MainListCell(title: "Image Tile", subtitle:"stretch and tiled images")
                     }
+                    .listRowInsets(EdgeInsets.init(top: 0, leading: 0, bottom: 0, trailing: 0))
+                    .randomColorBackground()
                 }
             }.navigationTitle(Text("The ZOO"))
         }
@@ -27,6 +25,8 @@ struct MainListView: View {
 
 struct MainListView_Previews: PreviewProvider {
     static var previews: some View {
-        MainListView()
+        Group {
+            MainListView()
+        }
     }
 }
