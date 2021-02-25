@@ -15,6 +15,8 @@
 		98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */; };
 		98EEDC0225E60DA600DC7B1F /* ImageTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0125E60DA600DC7B1F /* ImageTile.swift */; };
 		98EEDC0625E756B200DC7B1F /* RandomColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0525E756B200DC7B1F /* RandomColorModifier.swift */; };
+		98EEDC0925E764F400DC7B1F /* SFSymbolStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */; };
+		98EEDC0C25E767FC00DC7B1F /* RainbowNavListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListCell.swift; sourceTree = "<group>"; };
 		98EEDC0125E60DA600DC7B1F /* ImageTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTile.swift; sourceTree = "<group>"; };
 		98EEDC0525E756B200DC7B1F /* RandomColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorModifier.swift; sourceTree = "<group>"; };
+		98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStudy.swift; sourceTree = "<group>"; };
+		98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowNavListItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,9 @@
 				98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */,
 				98EEDBED25E4642B00DC7B1F /* ContentView.swift */,
 				98EEDBFB25E6090900DC7B1F /* MainListView.swift */,
-				98EEDC0525E756B200DC7B1F /* RandomColorModifier.swift */,
+				98EEDC0E25E769BF00DC7B1F /* Modifiers and Containers */,
 				98EEDC0125E60DA600DC7B1F /* ImageTile.swift */,
+				98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */,
 				98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */,
 				98EEDBEF25E4642B00DC7B1F /* Assets.xcassets */,
 				98EEDBF425E4642B00DC7B1F /* Info.plist */,
@@ -79,6 +84,15 @@
 				98EEDBF225E4642B00DC7B1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98EEDC0E25E769BF00DC7B1F /* Modifiers and Containers */ = {
+			isa = PBXGroup;
+			children = (
+				98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */,
+				98EEDC0525E756B200DC7B1F /* RandomColorModifier.swift */,
+			);
+			path = "Modifiers and Containers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,10 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98EEDC0925E764F400DC7B1F /* SFSymbolStudy.swift in Sources */,
 				98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */,
 				98EEDC0625E756B200DC7B1F /* RandomColorModifier.swift in Sources */,
 				98EEDBFC25E6090900DC7B1F /* MainListView.swift in Sources */,
 				98EEDC0225E60DA600DC7B1F /* ImageTile.swift in Sources */,
+				98EEDC0C25E767FC00DC7B1F /* RainbowNavListItem.swift in Sources */,
 				98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */,
 				98EEDBEC25E4642B00DC7B1F /* SwiftUIZooApp.swift in Sources */,
 			);
