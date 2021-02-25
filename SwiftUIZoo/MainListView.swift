@@ -14,10 +14,10 @@ import SwiftUI
 struct MainListView: View {
     var body: some View {
         NavigationView {
-            List {
+            List { // TODO - structure to handle the listing of all these things
                 Section(header: Text("Images")) {
-                    NavigationLink(destination: ImageZoo()) {
-                    MainListCell(title: "Image Zoo")
+                    MainListCell(title: "Image Tile", subtitle:"stretch and tiled images")
+                    NavigationLink(destination: ImageTile()) {
                     }
                 }
             }.navigationTitle(Text("The ZOO"))
