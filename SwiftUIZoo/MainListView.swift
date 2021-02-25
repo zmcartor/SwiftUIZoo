@@ -17,8 +17,15 @@ struct MainListView: View {
                     RainbowNavListItem(title: "Image Tile", subtitle: "Stretch and tiled images") {
                         ImageTile()
                     }
+                    
                     RainbowNavListItem(title: "SF Symbols", subtitle:"build in system symbols for every occasion") {
                         SFSymbolStudy()
+                    }
+                }
+                
+                Section(header: Text("Drawing Things")) {
+                    RainbowNavListItem(title: "Gradient", subtitle:"Text with different gradient backgrounds") {
+                        GradientView()
                     }
                 }
             }.navigationTitle(Text("The ZOO"))

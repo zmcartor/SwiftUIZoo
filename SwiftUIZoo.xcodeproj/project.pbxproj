@@ -17,6 +17,7 @@
 		98EEDC0625E756B200DC7B1F /* RandomColorModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0525E756B200DC7B1F /* RandomColorModifier.swift */; };
 		98EEDC0925E764F400DC7B1F /* SFSymbolStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */; };
 		98EEDC0C25E767FC00DC7B1F /* RainbowNavListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */; };
+		98EEDC1125E85B6B00DC7B1F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1025E85B6B00DC7B1F /* GradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		98EEDC0525E756B200DC7B1F /* RandomColorModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorModifier.swift; sourceTree = "<group>"; };
 		98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStudy.swift; sourceTree = "<group>"; };
 		98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowNavListItem.swift; sourceTree = "<group>"; };
+		98EEDC1025E85B6B00DC7B1F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				98EEDC0E25E769BF00DC7B1F /* Modifiers and Containers */,
 				98EEDC0125E60DA600DC7B1F /* ImageTile.swift */,
 				98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */,
+				98EEDC1025E85B6B00DC7B1F /* GradientView.swift */,
 				98EEDBFE25E60B8F00DC7B1F /* MainListCell.swift */,
 				98EEDBEF25E4642B00DC7B1F /* Assets.xcassets */,
 				98EEDBF425E4642B00DC7B1F /* Info.plist */,
@@ -172,6 +175,7 @@
 				98EEDC0C25E767FC00DC7B1F /* RainbowNavListItem.swift in Sources */,
 				98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */,
 				98EEDBEC25E4642B00DC7B1F /* SwiftUIZooApp.swift in Sources */,
+				98EEDC1125E85B6B00DC7B1F /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
