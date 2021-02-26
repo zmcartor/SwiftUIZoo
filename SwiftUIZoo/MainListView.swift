@@ -23,11 +23,16 @@ struct MainListView: View {
                     }
                 }
                 
-                Section(header: Text("Drawing Things")) {
+                Section(header: Text("Drawing Things 🔺🟩🟠")) {
                     RainbowNavListItem(title: "Gradient", subtitle:"Text with different gradient backgrounds") {
                         GradientView()
                     }
+                    
+                    RainbowNavListItem(title: "Shapes", subtitle:"Drawing solid shapes with colors fit for small kids") {
+                        SolidShapes()
+                    }
                 }
+                    
             }.navigationTitle(Text("The ZOO"))
         }
     }

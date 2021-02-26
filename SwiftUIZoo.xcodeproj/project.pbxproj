@@ -18,6 +18,7 @@
 		98EEDC0925E764F400DC7B1F /* SFSymbolStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */; };
 		98EEDC0C25E767FC00DC7B1F /* RainbowNavListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */; };
 		98EEDC1125E85B6B00DC7B1F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1025E85B6B00DC7B1F /* GradientView.swift */; };
+		98EEDC1425E8B32D00DC7B1F /* SolidShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SFSymbolStudy.swift; sourceTree = "<group>"; };
 		98EEDC0B25E767FC00DC7B1F /* RainbowNavListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowNavListItem.swift; sourceTree = "<group>"; };
 		98EEDC1025E85B6B00DC7B1F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShapes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */,
 				98EEDBED25E4642B00DC7B1F /* ContentView.swift */,
 				98EEDBFB25E6090900DC7B1F /* MainListView.swift */,
+				98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */,
 				98EEDC0E25E769BF00DC7B1F /* Modifiers and Containers */,
 				98EEDC0125E60DA600DC7B1F /* ImageTile.swift */,
 				98EEDC0825E764F400DC7B1F /* SFSymbolStudy.swift */,
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EEDC0925E764F400DC7B1F /* SFSymbolStudy.swift in Sources */,
+				98EEDC1425E8B32D00DC7B1F /* SolidShapes.swift in Sources */,
 				98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */,
 				98EEDC0625E756B200DC7B1F /* RandomColorModifier.swift in Sources */,
 				98EEDBFC25E6090900DC7B1F /* MainListView.swift in Sources */,
