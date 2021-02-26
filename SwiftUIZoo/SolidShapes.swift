@@ -27,7 +27,7 @@ struct SolidShapes: View {
                     .frame(width: 150, height: 30)
                 
                 Rectangle()
-                    .fill(LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .leading, endPoint: .trailing))
+                    .fill(LinearGradient(gradient: Gradient(colors: [.red, .blue]), startPoint: .trailing, endPoint: .leading))
                     .frame(width: 150, height: 30)
             }
             
