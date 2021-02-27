@@ -20,6 +20,7 @@
 		98EEDC1125E85B6B00DC7B1F /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1025E85B6B00DC7B1F /* GradientView.swift */; };
 		98EEDC1425E8B32D00DC7B1F /* SolidShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */; };
 		98EEDC1725E9709000DC7B1F /* LayoutTricks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1625E9709000DC7B1F /* LayoutTricks.swift */; };
+		98EEDC1A25EAD86A00DC7B1F /* ScrollViewZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDC1925EAD86A00DC7B1F /* ScrollViewZoo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		98EEDC1025E85B6B00DC7B1F /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolidShapes.swift; sourceTree = "<group>"; };
 		98EEDC1625E9709000DC7B1F /* LayoutTricks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTricks.swift; sourceTree = "<group>"; };
+		98EEDC1925EAD86A00DC7B1F /* ScrollViewZoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewZoo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				98EEDBED25E4642B00DC7B1F /* ContentView.swift */,
 				98EEDBFB25E6090900DC7B1F /* MainListView.swift */,
 				98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */,
+				98EEDC1925EAD86A00DC7B1F /* ScrollViewZoo.swift */,
 				98EEDC1625E9709000DC7B1F /* LayoutTricks.swift */,
 				98EEDC0E25E769BF00DC7B1F /* Modifiers and Containers */,
 				98EEDC0125E60DA600DC7B1F /* ImageTile.swift */,
@@ -178,6 +181,7 @@
 				98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */,
 				98EEDC0625E756B200DC7B1F /* RandomColorModifier.swift in Sources */,
 				98EEDBFC25E6090900DC7B1F /* MainListView.swift in Sources */,
+				98EEDC1A25EAD86A00DC7B1F /* ScrollViewZoo.swift in Sources */,
 				98EEDC0225E60DA600DC7B1F /* ImageTile.swift in Sources */,
 				98EEDC0C25E767FC00DC7B1F /* RainbowNavListItem.swift in Sources */,
 				98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */,

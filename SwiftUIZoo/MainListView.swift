@@ -37,6 +37,10 @@ struct MainListView: View {
                     RainbowNavListItem(title: "Layout Tricks", subtitle:"Make views the same size") {
                         LayoutTricks()
                     }
+                    
+                    RainbowNavListItem(title: "Layout Tricks", subtitle:"Make views the same size") {
+                        ScrollViewZoo()
+                    }
                 }
                     
             }.navigationTitle(Text("The ZOO"))
