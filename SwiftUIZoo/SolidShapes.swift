@@ -12,6 +12,16 @@ struct SolidShapes: View {
         
         VStack(alignment: .center, spacing: 12, content: {
             
+            Button {
+                print("Tappy")
+            } label: {
+                Image(systemName: "homepod")
+                Text("Press me")
+                    .padding(20)
+            }
+            .contentShape(Rectangle())
+
+            
             Rectangle()
                 .fill(Color.orange)
                 .frame(width: 100, height: 50)
