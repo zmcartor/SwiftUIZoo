@@ -38,8 +38,12 @@ struct MainListView: View {
                         LayoutTricks()
                     }
                     
-                    RainbowNavListItem(title: "Layout Tricks", subtitle:"Make views the same size") {
+                    RainbowNavListItem(title: "ScrollViews", subtitle:"ScrollViewReader and anchors") {
                         ScrollViewZoo()
+                    }
+                    
+                    RainbowNavListItem(title: "TextViewZoo", subtitle:"TextView tricks") {
+                        TextViewZoo()
                     }
                 }
                     
