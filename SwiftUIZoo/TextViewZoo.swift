@@ -20,8 +20,10 @@ struct TextViewZoo: View {
             
             Text("Hello \(name)")
             
+            Button("Submit") {
+                hideKeyboard()
+            }
         }
-        
     }
 }
 
