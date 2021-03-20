@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982DC29F26067D51007216CB /* SliderControlZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982DC29E26067D51007216CB /* SliderControlZoo.swift */; };
 		9846C8E825EDEC3F0067F697 /* KeyboadManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846C8E725EDEC3F0067F697 /* KeyboadManagement.swift */; };
 		984BAE1925EAE5FB009E6938 /* TextViewZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984BAE1825EAE5FB009E6938 /* TextViewZoo.swift */; };
 		98EEDBEC25E4642B00DC7B1F /* SwiftUIZooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		982DC29E26067D51007216CB /* SliderControlZoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControlZoo.swift; sourceTree = "<group>"; };
 		9846C8E725EDEC3F0067F697 /* KeyboadManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboadManagement.swift; sourceTree = "<group>"; };
 		984BAE1825EAE5FB009E6938 /* TextViewZoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewZoo.swift; sourceTree = "<group>"; };
 		98EEDBE825E4642B00DC7B1F /* SwiftUIZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 				98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */,
 				98EEDBED25E4642B00DC7B1F /* ContentView.swift */,
 				98EEDBFB25E6090900DC7B1F /* MainListView.swift */,
+				982DC29E26067D51007216CB /* SliderControlZoo.swift */,
 				984BAE1825EAE5FB009E6938 /* TextViewZoo.swift */,
 				98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */,
 				98EEDC1925EAD86A00DC7B1F /* ScrollViewZoo.swift */,
@@ -186,6 +189,7 @@
 				98EEDC1425E8B32D00DC7B1F /* SolidShapes.swift in Sources */,
 				98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */,
 				98EEDC0625E756B200DC7B1F /* RandomColorModifier.swift in Sources */,
+				982DC29F26067D51007216CB /* SliderControlZoo.swift in Sources */,
 				98EEDBFC25E6090900DC7B1F /* MainListView.swift in Sources */,
 				984BAE1925EAE5FB009E6938 /* TextViewZoo.swift in Sources */,
 				9846C8E825EDEC3F0067F697 /* KeyboadManagement.swift in Sources */,
