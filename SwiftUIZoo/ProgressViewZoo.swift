@@ -8,8 +8,24 @@
 import SwiftUI
 
 struct ProgressViewZoo: View {
+    
+    @State private var downloadAmount = 0.0
+    
+    let timer = Timer.publish(every: 0.1, on: .main,
+    in: .common).autoconnect()
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 12) {
+            ProgressView("Downloading...", value: downloadAmount, total: 100)
+            ProgressView("Not Sure.. Progress View")
+        }.onReceive(timer, perform: { _ in
+            if downloadAmount < 100 {
+                downloadAmount += 2
+            }
+            
+            
+            
+        })
     }
 }
 
