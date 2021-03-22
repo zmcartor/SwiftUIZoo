@@ -55,6 +55,10 @@ struct MainListView: View {
                     RainbowNavListItem(title: "Making Progress", subtitle: "Doing great with SwiftUI!") {
                         ProgressViewZoo()
                     }
+                    
+                    RainbowNavListItem(title: "Links Zoo 🌭", subtitle: "Delicious summer links") {
+                        LinksZoo()
+                    }
                 }
                     
             }.navigationTitle(Text("The ZOO"))
