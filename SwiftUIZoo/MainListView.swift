@@ -46,6 +46,16 @@ struct MainListView: View {
                         TextViewZoo()
                     }
                 }
+                
+                Section(header: Text("Controls to Tweak 🎛")) {
+                    RainbowNavListItem(title: "Sliders", subtitle: "Great show, and great control") {
+                        SliderControlZoo()
+                    }
+                    
+                    RainbowNavListItem(title: "Making Progress", subtitle: "Doing great with SwiftUI!") {
+                        ProgressViewZoo()
+                    }
+                }
                     
             }.navigationTitle(Text("The ZOO"))
         }
