@@ -59,6 +59,10 @@ struct MainListView: View {
                     RainbowNavListItem(title: "Links Zoo 🌭", subtitle: "Delicious summer links") {
                         LinksZoo()
                     }
+                    
+                    RainbowNavListItem(title: "Gesture Zoo 👆", subtitle: "fingers do the talking") {
+                        GestureZoo()
+                    }
                 }
                     
             }.navigationTitle(Text("The ZOO"))
