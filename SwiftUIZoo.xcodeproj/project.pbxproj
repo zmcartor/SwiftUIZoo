@@ -13,7 +13,7 @@
 		9832C7C126312CCF00E68346 /* GestureTapZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832C7C026312CCF00E68346 /* GestureTapZoo.swift */; };
 		9846C8E825EDEC3F0067F697 /* KeyboadManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9846C8E725EDEC3F0067F697 /* KeyboadManagement.swift */; };
 		984BAE1925EAE5FB009E6938 /* TextViewZoo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984BAE1825EAE5FB009E6938 /* TextViewZoo.swift */; };
-		985548042634B497006CBBC2 /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985548032634B497006CBBC2 /* DragGesture.swift */; };
+		985548042634B497006CBBC2 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 985548032634B497006CBBC2 /* DragGestureView.swift */; };
 		98EEDBEC25E4642B00DC7B1F /* SwiftUIZooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */; };
 		98EEDBEE25E4642B00DC7B1F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEDBED25E4642B00DC7B1F /* ContentView.swift */; };
 		98EEDBF025E4642B00DC7B1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EEDBEF25E4642B00DC7B1F /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 		9832C7C026312CCF00E68346 /* GestureTapZoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureTapZoo.swift; sourceTree = "<group>"; };
 		9846C8E725EDEC3F0067F697 /* KeyboadManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboadManagement.swift; sourceTree = "<group>"; };
 		984BAE1825EAE5FB009E6938 /* TextViewZoo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewZoo.swift; sourceTree = "<group>"; };
-		985548032634B497006CBBC2 /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		985548032634B497006CBBC2 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		98EEDBE825E4642B00DC7B1F /* SwiftUIZoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIZoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98EEDBEB25E4642B00DC7B1F /* SwiftUIZooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIZooApp.swift; sourceTree = "<group>"; };
 		98EEDBED25E4642B00DC7B1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,7 +97,7 @@
 				98EEDC1325E8B32D00DC7B1F /* SolidShapes.swift */,
 				98EEDC1925EAD86A00DC7B1F /* ScrollViewZoo.swift */,
 				9832C7C026312CCF00E68346 /* GestureTapZoo.swift */,
-				985548032634B497006CBBC2 /* DragGesture.swift */,
+				985548032634B497006CBBC2 /* DragGestureView.swift */,
 				98EEDC1625E9709000DC7B1F /* LayoutTricks.swift */,
 				98EEDC0E25E769BF00DC7B1F /* Modifiers and Containers */,
 				98EEDC0125E60DA600DC7B1F /* ImageTile.swift */,
@@ -213,7 +213,7 @@
 				98EEDBFF25E60B8F00DC7B1F /* MainListCell.swift in Sources */,
 				98EEDC1725E9709000DC7B1F /* LayoutTricks.swift in Sources */,
 				98EEDBEC25E4642B00DC7B1F /* SwiftUIZooApp.swift in Sources */,
-				985548042634B497006CBBC2 /* DragGesture.swift in Sources */,
+				985548042634B497006CBBC2 /* DragGestureView.swift in Sources */,
 				9832C7C126312CCF00E68346 /* GestureTapZoo.swift in Sources */,
 				98EEDC1125E85B6B00DC7B1F /* GradientView.swift in Sources */,
 			);

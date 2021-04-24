@@ -59,9 +59,15 @@ struct MainListView: View {
                     RainbowNavListItem(title: "Links Zoo 🌭", subtitle: "Delicious summer links") {
                         LinksZoo()
                     }
+                }
                     
+                Section(header: Text("Gestures 🤌")) {
                     RainbowNavListItem(title: "Gesture Zoo 👆", subtitle: "fingers do the talking") {
                         GestureTapZoo()
+                    }
+                    
+                    RainbowNavListItem(title: "Drag around", subtitle: "Drag stuff around") {
+                        DragGestureView()
                     }
                 }
                     
