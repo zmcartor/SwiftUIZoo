@@ -61,7 +61,7 @@ struct MainListView: View {
                     }
                     
                     RainbowNavListItem(title: "Gesture Zoo 👆", subtitle: "fingers do the talking") {
-                        GestureZoo()
+                        GestureTapZoo()
                     }
                 }
                     
