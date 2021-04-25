@@ -69,6 +69,10 @@ struct MainListView: View {
                     RainbowNavListItem(title: "Drag around", subtitle: "Drag stuff around") {
                         DragGestureView()
                     }
+                    
+                    RainbowNavListItem(title: "Secret sequence gesture 👻", subtitle: "spooky") {
+                        GestureChain()
+                    }
                 }
                     
             }.navigationTitle(Text("The ZOO"))
