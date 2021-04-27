@@ -18,7 +18,14 @@ struct CustomBinding: View {
             get: { self.username },
             set: { self.username = $0; print("Set the username!!") })
         
-        return TextField("Enter your name please: ", text: coolBinding)
+        return VStack {
+            TextField("Enter your name please: ", text: coolBinding)
+            
+            TextField("I have an onChange modifier", text: $username)
+            .onChange(of: username) { value in
+                print("Using onChange is another way to observe a @State change")
+            }
+        }
     }
 }
 
