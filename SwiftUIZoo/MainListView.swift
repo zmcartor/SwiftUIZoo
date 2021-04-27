@@ -74,6 +74,14 @@ struct MainListView: View {
                         GestureChain()
                     }
                 }
+                
+                Section(header: Text("State Tricks 🇺🇸")) {
+                    RainbowNavListItem(title: "Custom Binding", subtitle: "run code when value changes") {
+                        CustomBinding()
+                    }
+                }
+                
+                
                     
             }.navigationTitle(Text("The ZOO"))
         }
